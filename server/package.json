@@ -1,0 +1,23 @@
+{
+  "name": "your-project",
+  "version": "1.0.0",
+  "description": "A sample project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack --config webpack.config.js",
+    "test": "jest",
+    "dev": "webpack-dev-server --config webpack.dev.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.0.0",
+    "webpack-dev-server": "^3.11.0",
+    "jest": "^26.6.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
+  }
+}
+
